@@ -1,7 +1,13 @@
-@import "./partials/_framework";
-
+@import "./partials/_framework.scss";
+@import "./partials/_navbar.scss";
 
 body{
   max-width: 1170px;
   background-color: white;
+}
+.mrgtop{
+  margin-top: 20px;
+}
+.flex{
+  display: flex;
 }

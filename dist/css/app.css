@@ -307,7 +307,28 @@
     margin-left: calc((100%/12) *11);
   }
 }
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mrg-r-20 {
+  margin-right: 20px;
+}
+
+div.left a {
+  margin-right: 30px;
+}
+
 body {
   max-width: 1170px;
   background-color: white;
+}
+
+.mrgtop {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
 }
