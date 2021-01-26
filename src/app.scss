@@ -2,7 +2,8 @@
 @import "./partials/_navbar.scss";
 
 body{
-  max-width: 1170px;
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: white;
 }
 .mrgtop{
@@ -10,4 +11,10 @@ body{
 }
 .flex{
   display: flex;
+}
+.brd-bot{
+  border-bottom: 2px solid black;
+}
+.pad-bot-10{
+  padding-bottom: 10px;
 }
