@@ -379,6 +379,34 @@ header .email {
   font-size: 1rem;
   margin-top: 10px;
 }
+header img {
+  height: 15px;
+  margin-right: 3px;
+}
+header span {
+  margin: 0 5px;
+}
+
+.one {
+  background-color: #fcae80;
+}
+.one h3 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #5e5932;
+}
+.one .card_1 {
+  text-align: center;
+}
+.one .card_1 img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.one p {
+  font-size: 1.3rem;
+}
 
 body {
   max-width: 1400px;
@@ -400,4 +428,8 @@ body {
 
 .pad-bot-10 {
   padding-bottom: 10px;
+}
+
+.justify {
+  justify-content: space-between;
 }

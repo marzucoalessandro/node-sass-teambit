@@ -2,6 +2,7 @@
 @import "./partials/_common.scss";
 @import "./partials/_navbar.scss";
 @import "./partials/_header.scss";
+@import "./partials/_section_1.scss";
 body{
   max-width: 1400px;
   margin: 0 auto;
@@ -18,4 +19,7 @@ body{
 }
 .pad-bot-10{
   padding-bottom: 10px;
+}
+.justify{
+  justify-content: space-between;
 }
