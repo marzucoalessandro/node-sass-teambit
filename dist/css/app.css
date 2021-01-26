@@ -391,10 +391,11 @@ header span {
   background-color: #fcae80;
 }
 .one h3 {
+  padding: 40px 240px 50px 240px;
+  font-size: 2rem;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
   color: #5e5932;
+  font-weight: bold;
 }
 .one .card_1 {
   text-align: center;
@@ -406,6 +407,14 @@ header span {
 }
 .one p {
   font-size: 1.3rem;
+  color: #5e5932;
+  font-weight: bold;
+}
+.one img {
+  width: 400px;
+  height: 350px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 body {
@@ -432,4 +441,12 @@ body {
 
 .justify {
   justify-content: space-between;
+}
+
+.txt-cen {
+  text-align: center;
+}
+
+.brd-bot-2 {
+  border-bottom: 3px solid #5e5932;
 }
