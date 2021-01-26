@@ -15,7 +15,7 @@
 div.left a{
   margin-right: 30px;
   text-decoration: none;
-  color: black;
+  color: $brown;
   text-transform: capitalize;
   font-weight: bold;
 }
@@ -27,11 +27,9 @@ div.left button{
   border-radius: 5px;
   font-weight: bold;
 }
-.relative{
-  display: flex;
-  align-items: center;
-}
+
 .relative img{
   height: 15px;
   margin-right: 5px;
+  color: $brown;
 }

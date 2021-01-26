@@ -307,6 +307,11 @@
     margin-left: calc((100%/12) *11);
   }
 }
+.relative {
+  display: flex;
+  align-items: center;
+}
+
 .navbar_site {
   height: 50px;
 }
@@ -328,7 +333,7 @@
 div.left a {
   margin-right: 30px;
   text-decoration: none;
-  color: black;
+  color: #5e5932;
   text-transform: capitalize;
   font-weight: bold;
 }
@@ -342,14 +347,10 @@ div.left button {
   font-weight: bold;
 }
 
-.relative {
-  display: flex;
-  align-items: center;
-}
-
 .relative img {
   height: 15px;
   margin-right: 5px;
+  color: #5e5932;
 }
 
 header {
@@ -362,10 +363,21 @@ header h1 {
 }
 header p {
   font-size: 2rem;
+  margin-bottom: 30px;
 }
-header img {
+header img.jumbotron {
   height: 300px;
   width: 580px;
+}
+header button {
+  background-color: #1b1b70;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 40px;
+}
+header .email {
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 body {
