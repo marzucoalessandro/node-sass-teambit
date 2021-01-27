@@ -417,6 +417,10 @@ header span {
   margin-bottom: 100px;
 }
 
+.employee img {
+  width: 50%;
+}
+
 body {
   max-width: 1400px;
   margin: 0 auto;
