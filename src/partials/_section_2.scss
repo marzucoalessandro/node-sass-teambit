@@ -29,6 +29,22 @@
   }
 }
 
+@media all and (max-width: 549px) {
+  .employee{
+    flex-wrap: wrap;
+    img{
+      width: 100%;
+    }
+    .explain{
+      width: 100%;
+      text-align: center;
+    }
+    .explain_2{
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   .employee{
     flex-wrap: wrap;

@@ -31,6 +31,17 @@ header{
     margin: 0 5px;
   }
 }
+@media all and (max-width: 549px) {
+  .header_site{
+    text-align: center;
+    div.flex{
+      justify-content: center;
+    }
+    img.jumbotron{
+      width: 100%;
+    }
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   .header_site{
     text-align: center;

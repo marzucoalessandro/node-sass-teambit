@@ -357,6 +357,22 @@ div.left button {
   display: none;
 }
 
+@media all and (max-width: 549px) {
+  div.left {
+    display: none;
+  }
+
+  .right {
+    position: relative;
+  }
+
+  .toggle i {
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   div.left {
     display: none;
@@ -407,6 +423,17 @@ header span {
   margin: 0 5px;
 }
 
+@media all and (max-width: 549px) {
+  .header_site {
+    text-align: center;
+  }
+  .header_site div.flex {
+    justify-content: center;
+  }
+  .header_site img.jumbotron {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   .header_site {
     text-align: center;
@@ -448,6 +475,19 @@ header span {
   margin-bottom: 100px;
 }
 
+@media all and (max-width: 549px) {
+  .one h3 {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #5e5932;
+    font-weight: bold;
+  }
+  .one .media-1 {
+    flex-direction: column;
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   .one h3 {
     width: 100%;
@@ -492,6 +532,22 @@ header span {
   width: 20%;
 }
 
+@media all and (max-width: 549px) {
+  .employee {
+    flex-wrap: wrap;
+  }
+  .employee img {
+    width: 100%;
+  }
+  .employee .explain {
+    width: 100%;
+    text-align: center;
+  }
+  .employee .explain_2 {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   .employee {
     flex-wrap: wrap;
@@ -551,6 +607,12 @@ body {
   flex-wrap: wrap;
 }
 
+@media all and (max-width: 549px) {
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
 @media screen and (min-width: 550px) and (max-width: 998px) {
   body {
     max-width: 100%;
