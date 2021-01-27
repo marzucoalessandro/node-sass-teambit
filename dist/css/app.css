@@ -370,7 +370,7 @@ div.left button {
     display: block;
     position: absolute;
     top: 30%;
-    right: 0;
+    right: 5%;
   }
 }
 header {
@@ -457,7 +457,7 @@ header span {
   height: 335px;
 }
 .employee .explain {
-  padding-right: 390px;
+  width: 20%;
 }
 .employee h3 {
   font-size: 2rem;
@@ -476,11 +476,11 @@ header span {
   width: 100%;
 }
 .employee .explain_2 {
-  padding-left: 390px;
+  width: 20%;
 }
 
 body {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: white;
 }
@@ -491,6 +491,11 @@ body {
 
 .flex {
   display: flex;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .brd-bot {
@@ -515,7 +520,7 @@ body {
 
 @media screen and (min-width: 550px) and (max-width: 998px) {
   body {
-    max-width: 998px;
+    max-width: 100%;
     margin: 0 auto;
   }
 }
