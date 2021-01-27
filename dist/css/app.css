@@ -414,6 +414,9 @@ header span {
   .header_site div.flex {
     justify-content: center;
   }
+  .header_site img.jumbotron {
+    width: 100%;
+  }
 }
 .one {
   background-color: #fcae80;
