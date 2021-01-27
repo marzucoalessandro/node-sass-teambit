@@ -33,3 +33,22 @@ div.left button{
   margin-right: 5px;
   color: $brown;
 }
+.toggle i{
+  display: none;
+}
+
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  div.left{
+    display: none;
+  }
+  .right{
+    position: relative;
+  }
+  .toggle i{
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 0;
+  }
+
+}

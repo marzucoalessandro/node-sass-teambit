@@ -353,6 +353,26 @@ div.left button {
   color: #5e5932;
 }
 
+.toggle i {
+  display: none;
+}
+
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  div.left {
+    display: none;
+  }
+
+  .right {
+    position: relative;
+  }
+
+  .toggle i {
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 0;
+  }
+}
 header {
   padding: 40px 0;
   color: #5e5932;
@@ -387,6 +407,14 @@ header span {
   margin: 0 5px;
 }
 
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  .header_site {
+    text-align: center;
+  }
+  .header_site div.flex {
+    justify-content: center;
+  }
+}
 .one {
   background-color: #fcae80;
 }
@@ -480,4 +508,11 @@ body {
 
 .brd-bot-2 {
   border-bottom: 3px solid #5e5932;
+}
+
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  body {
+    max-width: 998px;
+    margin: 0 auto;
+  }
 }
