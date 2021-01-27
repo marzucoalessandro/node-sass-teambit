@@ -1,5 +1,30 @@
 .employee{
+  color: $brown;
+  padding: 30px 0;
   img{
     width: 50%;
+    height: 335px;
+  }
+  .explain{
+    padding-right: 390px;
+  }
+  h3{
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+  p{
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+  a{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .communication{
+    width: 100%;
+  }
+  .explain_2{
+  padding-left: 390px; 
   }
 }

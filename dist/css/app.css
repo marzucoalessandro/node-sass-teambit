@@ -406,7 +406,7 @@ header span {
   margin-bottom: 30px;
 }
 .one p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #5e5932;
   font-weight: bold;
 }
@@ -417,8 +417,35 @@ header span {
   margin-bottom: 100px;
 }
 
+.employee {
+  color: #5e5932;
+  padding: 30px 0;
+}
 .employee img {
   width: 50%;
+  height: 335px;
+}
+.employee .explain {
+  padding-right: 390px;
+}
+.employee h3 {
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+.employee p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.employee a {
+  display: block;
+  margin-bottom: 20px;
+}
+.employee .communication {
+  width: 100%;
+}
+.employee .explain_2 {
+  padding-left: 390px;
 }
 
 body {
